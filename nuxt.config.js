@@ -2,6 +2,8 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
+  target: 'static',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'milka-2022',
@@ -45,6 +47,6 @@ export default {
   },
 
   router: {
-    base: 'milka',
+    base: '/milka/',
   }
 }
